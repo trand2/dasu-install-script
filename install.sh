@@ -33,8 +33,8 @@ mkdir /home/pi/.config/autostart
 
 echo "[Desktop Entry]
 Type=Application
-Name=TokenCast
-Exec=chromium-browser --kiosk --app=https://dasu.azurewebsites.net/device?deviceId=$frameid" >> /home/pi/.config/autostart/tokencast.desktop
+Name=Dasu
+Exec=chromium-browser --kiosk --app=https://dasu.azurewebsites.net/device?deviceId=$frameid" >> /home/pi/.config/autostart/dasu.desktop
 
 # reboot to have the xserver-command take effect
 sudo reboot
